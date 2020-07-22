@@ -1,0 +1,9 @@
+[gd_resource type="DynamicFont" load_steps=2 format=2]
+
+[ext_resource path="res://Fonts/engravier-initials/ENGRAVIE.TTF" type="DynamicFontData" id=1]
+
+[resource]
+size = 44
+outline_size = 1
+outline_color = Color( 0.945098, 0, 0.764706, 1 )
+font_data = ExtResource( 1 )

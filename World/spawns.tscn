@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://World/spawns.gd" type="Script" id=1]
+
+[node name="spawns" type="Node2D"]
+position = Vector2( 0.0115356, -257.103 )
+script = ExtResource( 1 )
+
+[node name="Position2D" type="Position2D" parent="."]
+position = Vector2( -360, -1000 )
+
+[node name="Position2D2" type="Position2D" parent="."]
+position = Vector2( -270, -1000 )
+
+[node name="Position2D3" type="Position2D" parent="."]
+position = Vector2( -180, -1000 )
+
+[node name="Position2D4" type="Position2D" parent="."]
+position = Vector2( -90, -1000 )
+
+[node name="Position2D5" type="Position2D" parent="."]
+position = Vector2( 0, -1000 )
+
+[node name="Position2D6" type="Position2D" parent="."]
+position = Vector2( 90, -1000 )
+
+[node name="Position2D7" type="Position2D" parent="."]
+position = Vector2( 180, -1000 )
+
+[node name="Position2D8" type="Position2D" parent="."]
+position = Vector2( 270, -1000 )
+
+[node name="Position2D9" type="Position2D" parent="."]
+position = Vector2( 360, -1000 )
+
+[node name="Timer" type="Timer" parent="."]
+process_mode = 0
+autostart = true
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
